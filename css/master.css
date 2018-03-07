@@ -16,7 +16,7 @@ body {
   justify-content: space-between;
   margin: 30px 25px 15px;
   border-bottom: 1px solid #000;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 .header__left,
@@ -42,13 +42,31 @@ body {
   color: #000;
 }
 
+.main--margin {
+  line-height: 18px;
+}
+
 .main__container {
   display: block;
   align-items: center;
   justify-content: space-between;
-  margin: 30px 25px 15px;
+  margin: 20px 25px 15px;
+  font-size: 14px;
 }
 
 .main__paragraph {
   margin: 20px 0;
+}
+
+.main__link {
+  text-decoration: none;
+  color: #000;
+}
+
+.main__link:hover {
+  text-decoration: underline;
+}
+
+.main__link:visited {
+  color: #000;
 }
